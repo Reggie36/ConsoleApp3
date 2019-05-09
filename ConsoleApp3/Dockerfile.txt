@@ -15,16 +15,7 @@ RUN Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Par
 
 WORKDIR C:\nerd-dinner
 
-
-
-
-
-
-
-
-
-
-
+//test
 
 RUN Remove-Website -Name 'Default Web Site'; `
     New-Website -Name 'nerd-dinner' `
